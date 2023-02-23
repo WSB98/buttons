@@ -1,0 +1,429 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+
+body {
+    background-color:bisque;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all ease 0.3s;
+}
+
+.testingDiv {
+    margin: 10px;
+    display: flex;
+    width: 250px;
+    height: 76px;
+    background-color: antiquewhite;
+    color: #222222;
+    border: #222222 solid 1px;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+    line-height: 38px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    justify-content: center;
+    padding:10px;
+}
+
+.testingDiv:active {
+    color: antiquewhite;
+    background-color: #222222;
+}
+
+.testingDiv2 {
+    margin: 10px;
+    width: 250px;
+    height: 72px;
+    display: flex;
+    background-color: antiquewhite;
+    color: #222222;
+    padding:0;
+    white-space: nowrap;
+    align-items: center;
+    vertical-align: middle;
+    border: #222222 solid 1px;
+    border-radius:100px;
+    cursor: pointer;
+    justify-content: center;
+    transition: all ease 0.2s;
+}
+
+.testingDiv2:active {
+    color: antiquewhite;
+    background-color: #222222;
+}
+
+.testingDiv3 {
+    margin: 10px;
+    width: 250px;
+    height: 72px;
+    background-color: antiquewhite;
+    color: #222222;
+    padding:20px;
+    border: #222222 solid 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    overflow: hidden;
+    align-items: center;
+    vertical-align: center;
+    white-space: nowrap;
+    line-height: 38px;
+}
+
+/* smaller button, less aggressive shadow */
+.testingDiv5 {
+    margin: 10px;
+    width: 72px;
+    height: 72px;
+    background-color: antiquewhite;
+    color: #222222;
+    padding:20px;
+    border: #222222 solid 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    overflow: hidden;
+    align-items: center;
+    vertical-align: center;
+    white-space: nowrap;
+    line-height: 38px;
+    transition: all ease 0.3s;
+}
+
+.testingDiv3:active {
+    color: antiquewhite;
+    background-color: #222222;
+}
+
+.testingDiv4 {
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    height: 42px;
+    background-color: antiquewhite;
+    color: #222222;
+    padding:20px;
+    border: #222222 solid 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    line-height: 38px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.testSpan {
+    background-color: #222222;
+    color: antiquewhite;
+    border-radius: 50px;
+    display: none;
+    width: 250px;
+    transition: all ease 0.2s;
+    position: absolute;
+}
+
+.testSpan2 {
+    background-color: #222222;
+    color: antiquewhite;
+    border-radius: 50px;
+    display: none;
+    width: 250px;
+    left:-300px;
+    transition: all ease 0.3s;
+    position: absolute;
+}
+
+.testSpan3{
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: -18px;
+}
+
+.testingDiv3:hover{
+    box-shadow: 0px 0px 18px 0px #222222;
+    transition: all ease 0.3s;
+    
+}
+.testingDiv3:hover .header3{
+    transform: translate(-600px, 0px);
+    transition: all ease 0.3s;
+      
+}
+.testingDiv3:hover .testSpan {
+    display:inline;
+    transform: translate(370px,0px);
+    transition: all ease 0.3s;
+}
+
+.testingDiv5:hover {
+    box-shadow: 0 0 12px -4px;
+    transition: all ease 0.3s;
+    width: 250px;
+}
+
+.testingDiv5:hover .testSpan2 {
+    display:inline;
+    transform: translate(-125px,0);
+    transition: all ease 0.3s;
+}
+.testingDiv5:hover .header5 {
+    transition: all ease 0.3s;
+    transform: translate(425px,0);
+}
+
+.testingDiv5:active {
+    box-shadow: 0 0 12px -4px;
+    background-color: #222222;
+    color:antiquewhite;
+    transition: all ease 0.3s;
+}
+
+.testingDiv5:hover .testSpan3 {
+    display: none;
+}
+
+
+.testingDiv:hover{
+    box-shadow: 0px 0px 18px 0px #222222;
+}
+.testingDiv2:hover{
+    box-shadow: 0px 0px 18px 0px #222222;
+}
+
+
+
+.header5 {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+.header4 {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}
+
+.header3 {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+.header2 {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}    
+ 
+.header {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}
+
+
+/* rainbow hover section */
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 100px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 100px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index:-1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 100px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* no select class */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+  /* myButton section -- success animation from original codepen */
+
+  .myButton {
+    width:55%;
+    font-size:large;
+    height:20%;
+    color:#222222;
+    border-radius:25px;
+    border: 1px solid #222222;
+    background-color:#e8e0d6;
+    font-family:'Source Code Pro';
+    top:calc(50% - 10%);
+    position:relative;
+    transition: all ease 0.5s;
+  }
+  
+  .myButton:hover{
+    background-color:#222222;
+    color: #e8e0d6;
+    transform:scale(1.05);
+    cursor: pointer;
+    color:#e8e0d6;
+    background-color:#e8e0d6;
+    transform:translate(-250px,0);
+    border: none;
+  }
+  
+  .hiddenPanel {
+    display:none;
+    background-color:#222222;
+    color: #e8e0d6;
+    border-radius: 25px;
+    width:0px;
+    line-height: 32px;
+    position: absolute;
+    left: calc(50% - 125px);
+    height:0px;
+    text-align:center;
+    padding-top:100px;
+    top:calc(50% - 125px);
+  }
+  
+  .myButton:hover .hiddenPanel{
+    width:250px;
+    height:150px;
+    font-size:42px;
+    transform:translate(250px,0);
+    display: inline;
+  }
+  
+  .holder {
+    overflow:hidden;
+    text-align:center;
+    padding:12px;
+    background-color: #e8e0d6;
+    width:250px;
+    height:250px;
+    border-radius:25px;
+    box-shadow:2px 2px 14px 1px;
+  }
+  
+  .checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    stroke: #222222;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  
+  .checkmark {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    justify-content:center;
+    top:25%;
+    position:relative;
+    stroke: #e8e0d6;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #222222;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  .shrink {
+    -webkit-transition: all 1.0s ease, all 1.0s ease;
+    -moz-transition: all 1.0s ease, all 1.0s ease;
+    -o-transition: all 1.0s ease, all 1.0s ease;
+    transition: all 1.0s ease, all 1.0s ease;
+    width: 5%;
+  }
+  
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes scale {
+    0%, 100% {
+      transform: none;
+    }
+    50% {
+      transform: scale3d(1.1, 1.1, 1);
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 72px #222222;
+    }
+  }
