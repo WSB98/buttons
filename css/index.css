@@ -7,7 +7,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
     transition: all ease 0.3s;
@@ -202,6 +202,83 @@ body {
     box-shadow: 0px 0px 18px 0px #222222;
 }
 
+.testingDiv6 {
+    border: #222 1px solid;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    transition: all ease 0.3s;
+    padding: 25px;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+.radioSpan {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: calc(50% - 10px);
+    color: #222;
+    border-radius: 5px;
+    padding:6px;
+    transition: all ease 0.3s;
+    border: 1px solid #222;
+    margin: 3px;
+}
+.radioTest {
+    background-color: #222;
+    transition: all ease 0.3s;
+}
+
+.radioContainer {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all ease 0.3s;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.radioContainer:hover input ~ .radioSpan{
+    background-color: #eeefee;
+    transition: all ease 0.3s;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.radioContainer input:checked ~ .radioSpan{
+    background-color: #222;
+    color: antiquewhite;
+    transition: all ease 0.3s;
+    
+}
+.radioContainer input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.radioSpan:after {
+    content: "";
+    position: absolute;
+    display: none;
+    transition: all ease 0.3s;
+}
+
+.radioContainer input:checked ~ .radioSpan:after {
+    display: block;
+    transition: all ease 0.3s;
+}
+
+
+
+
 
 
 .header5 {
@@ -239,7 +316,7 @@ body {
     height: 50px;
     border: none;
     outline: none;
-    color: #fff;
+    color: antiquewhite;
     background: #111;
     cursor: pointer;
     position: relative;
@@ -265,7 +342,7 @@ body {
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: #222222
 }
 
 .glow-on-hover:active:after {
@@ -315,7 +392,7 @@ body {
     color:#222222;
     border-radius:25px;
     border: 1px solid #222222;
-    background-color:#e8e0d6;
+    background-color:antiquewhite;
     font-family:'Source Code Pro';
     top:calc(50% - 10%);
     position:relative;
@@ -323,12 +400,8 @@ body {
   }
   
   .myButton:hover{
-    background-color:#222222;
-    color: #e8e0d6;
     transform:scale(1.05);
     cursor: pointer;
-    color:#e8e0d6;
-    background-color:#e8e0d6;
     transform:translate(-250px,0);
     border: none;
   }
@@ -336,7 +409,7 @@ body {
   .hiddenPanel {
     display:none;
     background-color:#222222;
-    color: #e8e0d6;
+    color: antiquewhite;
     border-radius: 25px;
     width:0px;
     line-height: 32px;
@@ -360,7 +433,7 @@ body {
     overflow:hidden;
     text-align:center;
     padding:12px;
-    background-color: #e8e0d6;
+    background-color: antiquewhite;
     width:250px;
     height:250px;
     border-radius:25px;

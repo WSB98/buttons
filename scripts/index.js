@@ -1,8 +1,6 @@
 
 
-document.getElementById('buttonSample').addEventListener('click', function (e) {
-    e.preventDefault();
-})
+
 
 document.getElementById("myBtn").addEventListener('click', async function () {
     var btn = document.getElementById("myBtn");
