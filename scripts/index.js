@@ -35,3 +35,11 @@ document.getElementById("myBtn").addEventListener('click', async function () {
     
    
   }
+
+var mySelect = document.getElementById("testSelect2");
+
+mySelect.addEventListener("change", function() {
+  mySelect.style.padding = "5px";
+  mySelect.style.backgroundColor = "#222";
+  mySelect.style.color = "antiquewhite"
+});

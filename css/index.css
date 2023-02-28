@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 
 
+
+
 body {
     background-color:bisque;
 }
@@ -13,6 +15,12 @@ body {
     transition: all ease 0.3s;
 }
 
+.testingDiv8 {
+    margin: 10px;
+}
+.testingDiv9 {
+    margin:10px;
+}
 .testingDiv {
     margin: 10px;
     display: flex;
@@ -214,6 +222,21 @@ body {
     background-color: antiquewhite;
     flex-wrap: wrap;
 }
+.testingDiv7 {
+    border: #222 1px solid;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    transition: all ease 0.3s;
+    padding: 25px;
+    width: 125px;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+/* begin radio button CSS for div6 */ 
 .radioSpan {
     position: relative;
     text-align: center;
@@ -278,7 +301,104 @@ body {
 
 
 
+/* begin radio button CSS for div7 */ 
+.radioSpan2 {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: calc(50% - 10px);
+    background-image: linear-gradient(to left, #222 50%, antiquewhite 50%);
+    background-size: 200% 100%;
+    border-radius: 5px;
+    padding:6px;
+    transition: all ease 0.3s;
+    margin: 3px;
+    -webkit-transition:all background-position 1s;
+    -moz-transition:all background-position 1s;
+    transition: all background-position 1s;
+}
+.radioTest2 {
+    background-color: #222;
+    transition: all ease 0.3s;
+}
 
+.radioContainer2 {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all ease 0.3s;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.radioContainer2:hover input ~ .radioSpan2{
+    transition: all ease 0.3s;
+    padding-left: 18px;
+}
+.radioContainer2 input:checked ~ .radioSpan2{
+    background-color: #222;
+    color: antiquewhite;
+    transition: all ease 0.3s;
+    background-position: -100% 0;
+    
+}
+.radioContainer2 input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.radioSpan2:after {
+    content: "";
+    position: absolute;
+    display: none;
+    transition: all ease 0.3s;
+}
+
+.radioContainer2 input:checked ~ .radioSpan2:after {
+    display: block;
+    transition: all ease 0.3s;
+}
+
+
+/* select doprdown basic */
+.selectDropdown-basic {
+    background-color: antiquewhite;
+    font-size: large;
+    padding:20px;
+    font-family: 'IBM Plex Mono', Courier, monospace;
+    transition: all ease 0.2s;
+    color:#222;
+    border-radius: 15px;
+} 
+.selectDropdown-basic:hover{
+    background-color: #222;
+    color:antiquewhite;
+}
+
+/* select doprdown basic */
+.selectDropdown-basic-2 {
+    background-color: antiquewhite;
+    font-size: large;
+    padding:20px;
+    font-family: 'IBM Plex Mono', Courier, monospace;
+    transition: all ease 0.2s;
+    color:#222;
+    border-radius: 15px;
+} 
+.selectDropdown-basic-2:hover{
+    background-color: #222;
+    color:antiquewhite;
+}
+.selectDropdown-basic-2:chang{
+    padding: 5px;
+}
 
 
 .header5 {
