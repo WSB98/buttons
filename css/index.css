@@ -180,9 +180,10 @@ body {
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
-    height: 100px;
+    height: 250px;
+    background-color: antiquewhite;
     border-radius: 15px;
-    width:33%;
+    width:500px;
 }
 .testingTable1{
     border-collapse: collapse;

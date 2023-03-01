@@ -5,10 +5,7 @@
     -.1rem -.1rem .25rem rgb(255, 255, 235);
     transition:all ease 0.2s;
 }
-.insetShadow:hover{
-    box-shadow: .15rem .15rem .3rem grey, 
-    -.1rem -.1rem .25rem grey;
-}
+
 .insetShadow:active{
     box-shadow: inset .15rem .15rem .3rem grey, 
     inset -.15rem -.15rem .3rem rgb(255, 255, 235);
@@ -322,4 +319,78 @@
   50%{top: 0vh; opacity: .8;}
   75%{opacity: 1;}
   100%{top: -100vh; opacity: 0;}
+}
+
+/* neumoprhic icon expands to chip */
+
+.testingDiv16{
+  cursor: pointer;
+  margin: 10px;
+  width: 72px;
+  height: 72px;
+  color: #222222;
+  padding:20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  overflow: hidden;
+  align-items: center;
+  vertical-align: center;
+  white-space: nowrap;
+  line-height: 72px;
+  transition: all ease 0.3s;
+}
+
+.header16 {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  transition: all ease 0.3s;
+  line-height: 84px;
+}
+
+.testingDiv16:hover {
+  transition: all ease 0.3s;
+  width: 250px;
+}
+
+.testingDiv16:hover .testSpan17 {
+  display:inline;
+  transform: translate(-125px,0);
+  transition: all ease 0.3s;
+}
+.testingDiv16:hover .header16 {
+  transition: all ease 0.3s;
+  transform: translate(425px,-26px);
+}
+
+.testingDiv16:active {
+  transition: all ease 0.3s;
+}
+
+.testingDiv16:hover .testSpan16 {
+  display: none;
+}
+
+.testSpan17 {
+  border: 1px solid #222;
+  border-radius: 50px;
+  display: none;
+  width: 250px;
+  left:-300px;
+  transition: all ease 0.3s;
+  position: absolute;
+}
+
+.testSpan16 {
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: -18px;
+}
+.svg_user{
+  transform: translate(0px,15px);
+  height: 48px;
+  width: 48px;
 }
