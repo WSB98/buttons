@@ -4,7 +4,7 @@
 
 
 body {
-    background-color:bisque;
+    background-color: peru;
 }
 .container {
     display: flex;
@@ -16,13 +16,16 @@ body {
 }
 
 .testingDiv8 {
+    cursor: pointer;
     margin: 10px;
 }
 .testingDiv9 {
     margin:10px;
+    cursor: pointer;
 }
 .testingDiv {
     margin: 10px;
+    cursor: pointer;
     display: flex;
     width: 250px;
     height: 76px;
@@ -46,6 +49,7 @@ body {
 }
 
 .testingDiv2 {
+    cursor: pointer;
     margin: 10px;
     width: 250px;
     height: 72px;
@@ -69,6 +73,7 @@ body {
 }
 
 .testingDiv3 {
+    cursor: pointer;
     margin: 10px;
     width: 250px;
     height: 72px;
@@ -88,6 +93,7 @@ body {
 
 /* smaller button, less aggressive shadow */
 .testingDiv5 {
+    cursor: pointer;
     margin: 10px;
     width: 72px;
     height: 72px;
@@ -112,6 +118,7 @@ body {
 }
 
 .testingDiv4 {
+    cursor: pointer;
     margin: 10px;
     width: 250px;
     display: flex;
@@ -128,6 +135,107 @@ body {
     justify-content: center;
     vertical-align: middle;
 }
+
+.testingDiv13{
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 10px;
+    box-shadow: inset .15rem .15rem .3rem grey, 
+    inset -.15rem -.15rem .3rem rgb(255, 255, 235);
+    font-size: large;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    font-family: 'IBM Plex Mono', monospace;
+    transition:all ease 0.1s;
+}
+
+.testingDiv13:hover{
+    box-shadow:.15rem .15rem .3rem grey, 
+    -.15rem -.15rem .3rem rgb(255, 255, 235);
+    transition:all ease 0.1s;
+}
+.testingDiv13:hover .header13{
+    transform:scale(1.05);
+    transition: all ease 0.1s;
+}
+
+.testingDiv13:active {
+    box-shadow: inset .15rem .15rem .3rem grey, 
+    inset -.15rem -.15rem .3rem rgb(255, 255, 235);
+}
+
+.testingDiv13:active .header13 {
+    transform:scale(1);
+    transition: all ease 0.1s;
+}
+
+
+/* table 1 section */
+.testingDiv14{
+    cursor: pointer;
+    border: 1px solid #222;
+    margin:10px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100px;
+    border-radius: 15px;
+    width:33%;
+}
+.testingTable1{
+    border-collapse: collapse;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 100%;
+}
+.thead{
+    font-weight: 700;
+    background-color: #222;
+    color:antiquewhite;
+    padding: 0px;
+    transition: all .2s ease-in-out;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: larger;
+    z-index:10;
+}
+.trow {
+    border:#222222 solid 1px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .15);
+    transition: all ease 0.3s;
+  }
+  
+.trow:hover {
+    background-color:#64aef2;
+    -webkit-box-shadow: 0 0 10px;
+    background-color: rgba(255, 255, 255, .25);
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.tdata {
+    font-style: var(--font-family-eclectrolize);
+    font-size: medium;
+    padding:5px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+  
+  
+.tdata:hover {
+    transform:scale(1.1);
+}
+
 
 .testSpan {
     background-color: #222222;
@@ -211,6 +319,7 @@ body {
 }
 
 .testingDiv6 {
+    cursor: pointer;
     border: #222 1px solid;
     border-radius: 15px;
     justify-content: space-evenly;
@@ -223,6 +332,7 @@ body {
     flex-wrap: wrap;
 }
 .testingDiv7 {
+    cursor: pointer;
     border: #222 1px solid;
     border-radius: 15px;
     justify-content: space-evenly;
