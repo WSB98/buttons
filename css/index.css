@@ -6,11 +6,91 @@
 body {
     background-color: peru;
 }
+.buttonSection {
+    padding: 10px;
+    position: relative;
+    align-content: center;
+    height: auto;
+    margin:5px;
+    text-align: center;
+    vertical-align: middle;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: 1px solid #222;
+    border-radius: 20px;
+}
+.radioSection {
+    padding: 10px;
+    position: relative;
+    align-content: center;
+    height: auto;
+    margin:5px;
+    text-align: center;
+    vertical-align: middle;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: 1px solid #222;
+    border-radius: 20px;
+}
+.selectSection{
+    padding: 10px;
+    position: relative;
+    align-content: center;
+    height: auto;
+    margin:5px;
+    text-align: center;
+    vertical-align: middle;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: 1px solid #222;
+    border-radius: 20px;
+}
+.tableSection{
+    padding: 10px;
+    position: relative;
+    align-content: center;
+    height: auto;
+    margin:5px;
+    text-align: center;
+    vertical-align: middle;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: 1px solid #222;
+    border-radius: 20px;
+}
 .container {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     transition: all ease 0.3s;
 }
