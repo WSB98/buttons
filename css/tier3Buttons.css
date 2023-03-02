@@ -1,0 +1,32 @@
+/* inset sahdow, normal on click, color change on hover */
+.testingDiv19{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    background-image: linear-gradient(to left, antiquewhite 50%, #00000000 50%);
+    background-size: 200% 100%;
+    border-radius: 5px;
+    padding:6px;
+    margin: 3px;
+    font-family: 'IBM Plex Mono', monospace;
+    -webkit-transition:all background-position  ease 2s;
+    -moz-transition:all background-position ease 2s;
+    transition: all background-position ease 1.5s;
+  }
+  
+  .testingDiv19:hover {
+    background-position: -100% 0;
+  }
+  
+  .inverseShadow {
+    box-shadow: inset .15rem .15rem .3rem grey, 
+    inset -.15rem -.15rem .3rem rgb(255, 255, 235);
+    transition: ease 1s;
+  }
+  
+  .inverseShadow:active{
+    cursor:progress;
+    transform: scale(0.8);
+    transition: 1.2s;
+  }

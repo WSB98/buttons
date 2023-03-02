@@ -43,3 +43,11 @@ mySelect.addEventListener("change", function() {
   mySelect.style.backgroundColor = "#222";
   mySelect.style.color = "antiquewhite"
 });
+
+window.onload = async function(){
+  //add sortable script after adding the data (doesnt work if loaded before data)
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "https://www.kryogenix.org/code/browser/sorttable/sorttable.js";
+  document.head.appendChild(script)
+}

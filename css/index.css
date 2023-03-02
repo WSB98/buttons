@@ -32,8 +32,6 @@ body {
     align-content: center;
     height: auto;
     margin:5px;
-    text-align: center;
-    vertical-align: middle;
 
     align-items: flex-start;
     justify-content: flex-start;
@@ -49,7 +47,6 @@ body {
 .selectSection{
     padding: 10px;
     position: relative;
-    align-content: center;
     height: auto;
     margin:5px;
     text-align: center;
@@ -261,9 +258,10 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 250px;
+    display: inline-flex;
+    width: 100%;
     background-color: antiquewhite;
     border-radius: 15px;
-    width:500px;
 }
 .testingTable1{
     border-collapse: collapse;
@@ -271,6 +269,7 @@ body {
     background-color: antiquewhite;
     padding: 0px;
     width: 100%;
+    padding: 20px;
 }
 .thead{
     font-weight: 700;
@@ -412,20 +411,7 @@ body {
     background-color: antiquewhite;
     flex-wrap: wrap;
 }
-.testingDiv7 {
-    cursor: pointer;
-    border: #222 1px solid;
-    border-radius: 15px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    transition: all ease 0.3s;
-    padding: 25px;
-    width: 125px;
-    background-color: antiquewhite;
-    flex-wrap: wrap;
-}
+
 
 /* begin radio button CSS for div6 */ 
 .radioSpan {
@@ -492,70 +478,7 @@ body {
 
 
 
-/* begin radio button CSS for div7 */ 
-.radioSpan2 {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    top: calc(50% - 10px);
-    background-image: linear-gradient(to left, #222 50%, antiquewhite 50%);
-    background-size: 200% 100%;
-    border-radius: 5px;
-    padding:6px;
-    transition: all ease 0.3s;
-    margin: 3px;
-    -webkit-transition:all background-position 1s;
-    -moz-transition:all background-position 1s;
-    transition: all background-position 1s;
-}
-.radioTest2 {
-    background-color: #222;
-    transition: all ease 0.3s;
-}
 
-.radioContainer2 {
-    display: block;
-    position: relative;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: all ease 0.3s;
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-.radioContainer2:hover input ~ .radioSpan2{
-    transition: all ease 0.3s;
-    padding-left: 18px;
-}
-.radioContainer2 input:checked ~ .radioSpan2{
-    background-color: #222;
-    color: antiquewhite;
-    transition: all ease 0.3s;
-    background-position: -100% 0;
-    
-}
-.radioContainer2 input{
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    transition: all ease 0.3s;
-}
-
-.radioSpan2:after {
-    content: "";
-    position: absolute;
-    display: none;
-    transition: all ease 0.3s;
-}
-
-.radioContainer2 input:checked ~ .radioSpan2:after {
-    display: block;
-    transition: all ease 0.3s;
-}
 
 
 /* select doprdown basic */
