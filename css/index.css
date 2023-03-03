@@ -256,7 +256,7 @@ body {
     margin:10px;
     position: relative;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: 250px;
     display: inline-flex;
     width: 100%;
